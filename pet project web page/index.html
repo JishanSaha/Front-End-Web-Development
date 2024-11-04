@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Mood Tracker</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Habit Mood Tracker with Seasonal Patterns</h1>
+        <p>Track your habits and mood throughout the year and discover seasonal patterns.</p>
+    </header>
+
+    <main>
+        <section id="tracker-form">
+            <h2>Log Your Habit & Mood</h2>
+            <form id="habitForm">
+                <label for="habit">Habit:</label>
+                <input type="text" id="habit" name="habit" placeholder="e.g. Exercise">
+
+                <label for="mood">Mood:</label>
+                <select id="mood" name="mood">
+                    <option value="happy">Happy</option>
+                    <option value="anxious">Anxious</option>
+                    <option value="tired">Tired</option>
+                    <option value="excited">Excited</option>
+                    <option value="neutral">Neutral</option>
+                </select>
+
+                <label for="rating">Mood Rating (1-10):</label>
+                <input type="number" id="rating" name="rating" min="1" max="10">
+
+                <button type="submit">Add Entry</button>
+            </form>
+        </section>
+
+        <section id="entries">
+            <h2>Entries</h2>
+            <table id="entriesTable">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Habit</th>
+                        <th>Mood</th>
+                        <th>Rating</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- Data will be added here -->
+                </tbody>
+            </table>
+        </section>
+
+        <section id="motivational-prompt">
+            <h2>Motivational Prompt</h2>
+            <p id="prompt">Stay consistent with your habits, and watch your progress!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Habit Mood Tracker</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
