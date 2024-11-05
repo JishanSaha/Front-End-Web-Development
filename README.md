@@ -2,7 +2,7 @@
 ## Course: Front-End Web Development
 ### Course Code: HTTP 5122
 
-### Academic Year: 2025-2026
+### Academic Year: 2024-2025
 
 This course provides an introduction to the basics of computer programming and equips students with the tools necessary to create interactive web pages utilizing the JavaScript programming language.
 
